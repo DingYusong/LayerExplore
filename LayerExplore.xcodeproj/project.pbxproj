@@ -13,6 +13,8 @@
 		F73FEFF9219BFDAF007F9A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73FEFF8219BFDAF007F9A9D /* Assets.xcassets */; };
 		F73FEFFC219BFDAF007F9A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73FEFFA219BFDAF007F9A9D /* LaunchScreen.storyboard */; };
 		F73FEFFF219BFDAF007F9A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FEFFE219BFDAF007F9A9D /* main.m */; };
+		F73FF008219BFE62007F9A9D /* DYSDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FF006219BFE62007F9A9D /* DYSDemo01ViewController.m */; };
+		F73FF009219BFE62007F9A9D /* DYSDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73FF007219BFE62007F9A9D /* DYSDemo01ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F73FEFFB219BFDAF007F9A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F73FEFFD219BFDAF007F9A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F73FEFFE219BFDAF007F9A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F73FF005219BFE62007F9A9D /* DYSDemo01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo01ViewController.h; sourceTree = "<group>"; };
+		F73FF006219BFE62007F9A9D /* DYSDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo01ViewController.m; sourceTree = "<group>"; };
+		F73FF007219BFE62007F9A9D /* DYSDemo01ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo01ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */,
 				F73FEFF2219BFDAC007F9A9D /* ViewController.h */,
 				F73FEFF3219BFDAC007F9A9D /* ViewController.m */,
+				F73FF005219BFE62007F9A9D /* DYSDemo01ViewController.h */,
+				F73FF006219BFE62007F9A9D /* DYSDemo01ViewController.m */,
+				F73FF007219BFE62007F9A9D /* DYSDemo01ViewController.xib */,
 				F73FEFF5219BFDAC007F9A9D /* Main.storyboard */,
 				F73FEFF8219BFDAF007F9A9D /* Assets.xcassets */,
 				F73FEFFA219BFDAF007F9A9D /* LaunchScreen.storyboard */,
@@ -97,6 +105,7 @@
 		F73FEFE4219BFDAC007F9A9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DYS;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "丁玉松";
 				TargetAttributes = {
@@ -129,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73FEFFC219BFDAF007F9A9D /* LaunchScreen.storyboard in Resources */,
+				F73FF009219BFE62007F9A9D /* DYSDemo01ViewController.xib in Resources */,
 				F73FEFF9219BFDAF007F9A9D /* Assets.xcassets in Resources */,
 				F73FEFF7219BFDAC007F9A9D /* Main.storyboard in Resources */,
 			);
@@ -142,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73FEFF4219BFDAC007F9A9D /* ViewController.m in Sources */,
+				F73FF008219BFE62007F9A9D /* DYSDemo01ViewController.m in Sources */,
 				F73FEFFF219BFDAF007F9A9D /* main.m in Sources */,
 				F73FEFF1219BFDAC007F9A9D /* AppDelegate.m in Sources */,
 			);
