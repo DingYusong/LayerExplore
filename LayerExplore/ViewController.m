@@ -25,7 +25,19 @@
                              @{
                                  @"title":@"添加一个layer",
                                  @"page":@"DYSDemo01ViewController"
-                                 }];
+                                 },
+                             @{
+                                 @"title":@"图层绘制-代理",
+                                 @"page":@"DYSDemo02ViewController"
+                                 },
+                             @{
+                                 @"title":@"图层绘制-自定义图层",
+                                 @"page":@"DYSDemo03ViewController"
+                                 },
+                             @{
+                                 @"title":@"CAShapeLayer和UIBezierPath",
+                                 @"page":@"DYSDemo04ViewController"
+                                 },];
     self.tableView.rowHeight = 50;
 }
 
