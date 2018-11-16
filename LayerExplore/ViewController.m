@@ -23,21 +23,54 @@
     self.title = @"LayerExplore";
     self.dataSourceArray = @[
                              @{
-                                 @"title":@"添加一个layer",
+                                 @"title":@"layer-添加",
                                  @"page":@"DYSDemo01ViewController"
                                  },
                              @{
-                                 @"title":@"图层绘制-代理",
+                                 @"title":@"layer-自定义-代理",
                                  @"page":@"DYSDemo02ViewController"
                                  },
                              @{
-                                 @"title":@"图层绘制-自定义图层",
+                                 @"title":@"layer-自定义-子类复写",
                                  @"page":@"DYSDemo03ViewController"
+                                 },
+                             @{
+                                 @"title":@"layer-contents-寄宿图",
+                                 @"page":@"DYSDemo05ViewController"
                                  },
                              @{
                                  @"title":@"CAShapeLayer和UIBezierPath",
                                  @"page":@"DYSDemo04ViewController"
-                                 },];
+                                 },
+                             @{
+                                 @"title":@"Frame和Bounds",
+                                 @"page":@"DYSDemo06ViewController"
+                                 },
+                             @{
+                                 @"title":@"anchorPoint和center/position",
+                                 @"page":@"DYSDemo07ViewController"
+                                 },
+                             @{
+                                 @"title":@"CGAffineTransform-仿射变换",
+                                 @"page":@"DYSDemo08ViewController"
+                                 },
+                             @{
+                                 @"title":@"CATransform3D-3D变换",
+                                 @"page":@"DYSDemo09ViewController"
+                                 },
+                             @{
+                                 @"title":@"CATransform3D-sublayerTransform",
+                                 @"page":@"DYSDemo10ViewController"
+                                 },
+                             @{
+                                 @"title":@"CATransform3D-扁平化图层",
+                                 @"page":@"DYSDemo11ViewController"
+                                 },
+                             @{
+                                 @"title":@"CATransform3D-固体对象",
+                                 @"page":@"DYSDemo12ViewController"
+                                 },
+                             ];
     self.tableView.rowHeight = 50;
 }
 
@@ -64,7 +97,24 @@
     NSDictionary *dict = [self.dataSourceArray objectAtIndex:indexPath.row];
     NSString *classString = [dict objectForKey:@"page"];
     UIViewController *vc = [NSClassFromString(classString) new];
-    vc.view.backgroundColor = [UIColor whiteColor];
+    NSLog(@"2018-001");
+//    vc.view.backgroundColor = [UIColor whiteColor];
+    NSLog(@"2018-002");
     [self.navigationController pushViewController:vc animated:YES];
+    NSLog(@"2018-003");
 }
+
+/**
+ 
+ 2018-11-16 10:51:49.769812+0800 LayerExplore[1166:45569] 2018-001
+ 2018-11-16 10:51:53.569039+0800 LayerExplore[1166:45569] 2018-004
+ 2018-11-16 10:51:57.189441+0800 LayerExplore[1166:45569] [framework] CUIThemeStore: No theme registered with id=0
+ 2018-11-16 10:51:57.259693+0800 LayerExplore[1166:45569] 2018-002
+ 2018-11-16 10:52:11.512712+0800 LayerExplore[1166:45569] 2018-003
+
+ self.view.backgroundColor = [UIColor redColor];
+ demo05里面不生效，注意研究执行顺序的问题。
+ 
+ */
+
 @end

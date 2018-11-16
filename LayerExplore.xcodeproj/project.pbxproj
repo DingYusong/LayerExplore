@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F724DCA6219ECCB400F4A84A /* DYSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F724DCA4219ECCB400F4A84A /* DYSDemo11ViewController.m */; };
+		F724DCA7219ECCB400F4A84A /* DYSDemo11ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F724DCA5219ECCB400F4A84A /* DYSDemo11ViewController.xib */; };
+		F724DCAB219ED37300F4A84A /* DYSDemo12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F724DCA9219ED37300F4A84A /* DYSDemo12ViewController.m */; };
+		F724DCAC219ED37300F4A84A /* DYSDemo12ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F724DCAA219ED37300F4A84A /* DYSDemo12ViewController.xib */; };
 		F73FEFF1219BFDAC007F9A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */; };
 		F73FEFF4219BFDAC007F9A9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FEFF3219BFDAC007F9A9D /* ViewController.m */; };
 		F73FEFF7219BFDAC007F9A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73FEFF5219BFDAC007F9A9D /* Main.storyboard */; };
@@ -21,9 +25,28 @@
 		F73FF013219C09DD007F9A9D /* DYSDemo03ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73FF011219C09DD007F9A9D /* DYSDemo03ViewController.xib */; };
 		F73FF016219C09F3007F9A9D /* DYSDemo03Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FF015219C09F3007F9A9D /* DYSDemo03Layer.m */; };
 		F73FF019219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FF018219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m */; };
+		F74B78C2219E724D00CDF998 /* buddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74B78C1219E724D00CDF998 /* buddle@2x.png */; };
+		F74B78C6219E761500CDF998 /* DYSDemo06ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B78C4219E761500CDF998 /* DYSDemo06ViewController.m */; };
+		F74B78C7219E761500CDF998 /* DYSDemo06ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74B78C5219E761500CDF998 /* DYSDemo06ViewController.xib */; };
+		F74B78CB219E8A8D00CDF998 /* DYSDemo08ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B78C9219E8A8D00CDF998 /* DYSDemo08ViewController.m */; };
+		F74B78CC219E8A8D00CDF998 /* DYSDemo08ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74B78CA219E8A8D00CDF998 /* DYSDemo08ViewController.xib */; };
+		F790E5F1219E8D0200D16BFA /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = F790E5F0219E8D0200D16BFA /* beauty.png */; };
+		F790E5F5219E962C00D16BFA /* DYSDemo09ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F790E5F3219E962C00D16BFA /* DYSDemo09ViewController.m */; };
+		F790E5F6219E962C00D16BFA /* DYSDemo09ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F790E5F4219E962C00D16BFA /* DYSDemo09ViewController.xib */; };
+		F790E5FA219EA98100D16BFA /* DYSDemo10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F790E5F8219EA98100D16BFA /* DYSDemo10ViewController.m */; };
+		F790E5FB219EA98100D16BFA /* DYSDemo10ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F790E5F9219EA98100D16BFA /* DYSDemo10ViewController.xib */; };
+		F7D93277219E617E009B4BA3 /* DYSDemo05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D93275219E617E009B4BA3 /* DYSDemo05ViewController.m */; };
+		F7D93278219E617E009B4BA3 /* DYSDemo05ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D93276219E617E009B4BA3 /* DYSDemo05ViewController.xib */; };
+		F7D9327A219E61F3009B4BA3 /* banner1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D93279219E61F3009B4BA3 /* banner1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F724DCA3219ECCB400F4A84A /* DYSDemo11ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo11ViewController.h; sourceTree = "<group>"; };
+		F724DCA4219ECCB400F4A84A /* DYSDemo11ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo11ViewController.m; sourceTree = "<group>"; };
+		F724DCA5219ECCB400F4A84A /* DYSDemo11ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo11ViewController.xib; sourceTree = "<group>"; };
+		F724DCA8219ED37300F4A84A /* DYSDemo12ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo12ViewController.h; sourceTree = "<group>"; };
+		F724DCA9219ED37300F4A84A /* DYSDemo12ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo12ViewController.m; sourceTree = "<group>"; };
+		F724DCAA219ED37300F4A84A /* DYSDemo12ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo12ViewController.xib; sourceTree = "<group>"; };
 		F73FEFEC219BFDAC007F9A9D /* LayerExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73FEFEF219BFDAC007F9A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +70,24 @@
 		F73FF015219C09F3007F9A9D /* DYSDemo03Layer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo03Layer.m; sourceTree = "<group>"; };
 		F73FF017219C0CE1007F9A9D /* DYSDemo02LayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo02LayerDelegate.h; sourceTree = "<group>"; };
 		F73FF018219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02LayerDelegate.m; sourceTree = "<group>"; };
+		F74B78C1219E724D00CDF998 /* buddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddle@2x.png"; sourceTree = "<group>"; };
+		F74B78C3219E761500CDF998 /* DYSDemo06ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo06ViewController.h; sourceTree = "<group>"; };
+		F74B78C4219E761500CDF998 /* DYSDemo06ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo06ViewController.m; sourceTree = "<group>"; };
+		F74B78C5219E761500CDF998 /* DYSDemo06ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo06ViewController.xib; sourceTree = "<group>"; };
+		F74B78C8219E8A8D00CDF998 /* DYSDemo08ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo08ViewController.h; sourceTree = "<group>"; };
+		F74B78C9219E8A8D00CDF998 /* DYSDemo08ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo08ViewController.m; sourceTree = "<group>"; };
+		F74B78CA219E8A8D00CDF998 /* DYSDemo08ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo08ViewController.xib; sourceTree = "<group>"; };
+		F790E5F0219E8D0200D16BFA /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
+		F790E5F2219E962C00D16BFA /* DYSDemo09ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo09ViewController.h; sourceTree = "<group>"; };
+		F790E5F3219E962C00D16BFA /* DYSDemo09ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo09ViewController.m; sourceTree = "<group>"; };
+		F790E5F4219E962C00D16BFA /* DYSDemo09ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo09ViewController.xib; sourceTree = "<group>"; };
+		F790E5F7219EA98100D16BFA /* DYSDemo10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo10ViewController.h; sourceTree = "<group>"; };
+		F790E5F8219EA98100D16BFA /* DYSDemo10ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo10ViewController.m; sourceTree = "<group>"; };
+		F790E5F9219EA98100D16BFA /* DYSDemo10ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo10ViewController.xib; sourceTree = "<group>"; };
+		F7D93274219E617E009B4BA3 /* DYSDemo05ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo05ViewController.h; sourceTree = "<group>"; };
+		F7D93275219E617E009B4BA3 /* DYSDemo05ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo05ViewController.m; sourceTree = "<group>"; };
+		F7D93276219E617E009B4BA3 /* DYSDemo05ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo05ViewController.xib; sourceTree = "<group>"; };
+		F7D93279219E61F3009B4BA3 /* banner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +120,9 @@
 		F73FEFEE219BFDAC007F9A9D /* LayerExplore */ = {
 			isa = PBXGroup;
 			children = (
+				F7D93279219E61F3009B4BA3 /* banner1.png */,
+				F74B78C1219E724D00CDF998 /* buddle@2x.png */,
+				F790E5F0219E8D0200D16BFA /* beauty.png */,
 				F73FEFEF219BFDAC007F9A9D /* AppDelegate.h */,
 				F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */,
 				F73FEFF2219BFDAC007F9A9D /* ViewController.h */,
@@ -96,6 +140,27 @@
 				F73FF011219C09DD007F9A9D /* DYSDemo03ViewController.xib */,
 				F73FF014219C09F3007F9A9D /* DYSDemo03Layer.h */,
 				F73FF015219C09F3007F9A9D /* DYSDemo03Layer.m */,
+				F7D93274219E617E009B4BA3 /* DYSDemo05ViewController.h */,
+				F7D93275219E617E009B4BA3 /* DYSDemo05ViewController.m */,
+				F7D93276219E617E009B4BA3 /* DYSDemo05ViewController.xib */,
+				F74B78C3219E761500CDF998 /* DYSDemo06ViewController.h */,
+				F74B78C4219E761500CDF998 /* DYSDemo06ViewController.m */,
+				F74B78C5219E761500CDF998 /* DYSDemo06ViewController.xib */,
+				F74B78C8219E8A8D00CDF998 /* DYSDemo08ViewController.h */,
+				F74B78C9219E8A8D00CDF998 /* DYSDemo08ViewController.m */,
+				F74B78CA219E8A8D00CDF998 /* DYSDemo08ViewController.xib */,
+				F790E5F2219E962C00D16BFA /* DYSDemo09ViewController.h */,
+				F790E5F3219E962C00D16BFA /* DYSDemo09ViewController.m */,
+				F790E5F4219E962C00D16BFA /* DYSDemo09ViewController.xib */,
+				F790E5F7219EA98100D16BFA /* DYSDemo10ViewController.h */,
+				F790E5F8219EA98100D16BFA /* DYSDemo10ViewController.m */,
+				F790E5F9219EA98100D16BFA /* DYSDemo10ViewController.xib */,
+				F724DCA3219ECCB400F4A84A /* DYSDemo11ViewController.h */,
+				F724DCA4219ECCB400F4A84A /* DYSDemo11ViewController.m */,
+				F724DCA5219ECCB400F4A84A /* DYSDemo11ViewController.xib */,
+				F724DCA8219ED37300F4A84A /* DYSDemo12ViewController.h */,
+				F724DCA9219ED37300F4A84A /* DYSDemo12ViewController.m */,
+				F724DCAA219ED37300F4A84A /* DYSDemo12ViewController.xib */,
 				F73FEFF5219BFDAC007F9A9D /* Main.storyboard */,
 				F73FEFF8219BFDAF007F9A9D /* Assets.xcassets */,
 				F73FEFFA219BFDAF007F9A9D /* LaunchScreen.storyboard */,
@@ -163,11 +228,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F724DCA7219ECCB400F4A84A /* DYSDemo11ViewController.xib in Resources */,
+				F74B78C7219E761500CDF998 /* DYSDemo06ViewController.xib in Resources */,
+				F7D93278219E617E009B4BA3 /* DYSDemo05ViewController.xib in Resources */,
+				F724DCAC219ED37300F4A84A /* DYSDemo12ViewController.xib in Resources */,
 				F73FEFFC219BFDAF007F9A9D /* LaunchScreen.storyboard in Resources */,
+				F790E5F1219E8D0200D16BFA /* beauty.png in Resources */,
 				F73FF013219C09DD007F9A9D /* DYSDemo03ViewController.xib in Resources */,
+				F74B78C2219E724D00CDF998 /* buddle@2x.png in Resources */,
 				F73FF009219BFE62007F9A9D /* DYSDemo01ViewController.xib in Resources */,
 				F73FEFF9219BFDAF007F9A9D /* Assets.xcassets in Resources */,
+				F7D9327A219E61F3009B4BA3 /* banner1.png in Resources */,
+				F790E5FB219EA98100D16BFA /* DYSDemo10ViewController.xib in Resources */,
+				F74B78CC219E8A8D00CDF998 /* DYSDemo08ViewController.xib in Resources */,
 				F73FF00E219C065B007F9A9D /* DYSDemo02ViewController.xib in Resources */,
+				F790E5F6219E962C00D16BFA /* DYSDemo09ViewController.xib in Resources */,
 				F73FEFF7219BFDAC007F9A9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,11 +256,18 @@
 			files = (
 				F73FEFF4219BFDAC007F9A9D /* ViewController.m in Sources */,
 				F73FF016219C09F3007F9A9D /* DYSDemo03Layer.m in Sources */,
+				F74B78C6219E761500CDF998 /* DYSDemo06ViewController.m in Sources */,
 				F73FF019219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m in Sources */,
+				F724DCA6219ECCB400F4A84A /* DYSDemo11ViewController.m in Sources */,
 				F73FF008219BFE62007F9A9D /* DYSDemo01ViewController.m in Sources */,
+				F790E5F5219E962C00D16BFA /* DYSDemo09ViewController.m in Sources */,
+				F7D93277219E617E009B4BA3 /* DYSDemo05ViewController.m in Sources */,
 				F73FF00D219C065B007F9A9D /* DYSDemo02ViewController.m in Sources */,
 				F73FEFFF219BFDAF007F9A9D /* main.m in Sources */,
 				F73FEFF1219BFDAC007F9A9D /* AppDelegate.m in Sources */,
+				F724DCAB219ED37300F4A84A /* DYSDemo12ViewController.m in Sources */,
+				F790E5FA219EA98100D16BFA /* DYSDemo10ViewController.m in Sources */,
+				F74B78CB219E8A8D00CDF998 /* DYSDemo08ViewController.m in Sources */,
 				F73FF012219C09DD007F9A9D /* DYSDemo03ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

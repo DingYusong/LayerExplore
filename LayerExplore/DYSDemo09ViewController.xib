@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DYSDemo09ViewController">
+            <connections>
+                <outlet property="layerView" destination="LfK-cZ-aNn" id="Hcr-P6-xHu"/>
+                <outlet property="segControl" destination="J11-YM-uRz" id="xvj-Yv-rDd"/>
+                <outlet property="view" destination="HNG-Y7-bU1" id="sgg-Jk-NYR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="HNG-Y7-bU1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="J11-YM-uRz">
+                    <rect key="frame" x="10" y="40" width="355" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="oQn-p0-obE"/>
+                    </constraints>
+                    <segments>
+                        <segment title="还原"/>
+                        <segment title="平移"/>
+                        <segment title="缩放"/>
+                        <segment title="旋转"/>
+                        <segment title="混合变换"/>
+                        <segment title="透视旋转"/>
+                    </segments>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LfK-cZ-aNn">
+                    <rect key="frame" x="97.5" y="218" width="180" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="VbX-1v-Gp9"/>
+                        <constraint firstAttribute="width" constant="180" id="cyz-qz-8ke"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Cq1-qm-G9c" firstAttribute="trailing" secondItem="J11-YM-uRz" secondAttribute="trailing" constant="10" id="Ixt-OF-VAz"/>
+                <constraint firstItem="LfK-cZ-aNn" firstAttribute="top" secondItem="J11-YM-uRz" secondAttribute="bottom" constant="148" id="MS5-Lr-7LK"/>
+                <constraint firstItem="J11-YM-uRz" firstAttribute="top" secondItem="Cq1-qm-G9c" secondAttribute="top" constant="20" id="Oel-x1-BDO"/>
+                <constraint firstItem="J11-YM-uRz" firstAttribute="leading" secondItem="Cq1-qm-G9c" secondAttribute="leading" constant="10" id="TQU-u4-2Bo"/>
+                <constraint firstItem="LfK-cZ-aNn" firstAttribute="centerX" secondItem="Cq1-qm-G9c" secondAttribute="centerX" id="dQ4-gG-43M"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Cq1-qm-G9c"/>
+            <point key="canvasLocation" x="441" y="-292"/>
+        </view>
+    </objects>
+</document>

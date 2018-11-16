@@ -49,7 +49,8 @@
     
     [self.view.layer addSublayer:layer];
     
-    [layer setNeedsDisplay];
+//    [layer setNeedsDisplay];
+    [layer display];
     
     self.subLayer = layer;
 }
