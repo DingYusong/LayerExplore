@@ -70,6 +70,34 @@
                                  @"title":@"CATransform3D-固体对象",
                                  @"page":@"DYSDemo12ViewController"
                                  },
+                             @{
+                                 @"title":@"图形几何学-钟表",
+                                 @"page":@"DYSDemo13ViewController"
+                                 },
+                             @{
+                                 @"title":@"图形几何学-zposition",
+                                 @"page":@"DYSDemo14ViewController"
+                                 },
+                             @{
+                                 @"title":@"图形几何学-containsPoint/hitTest",
+                                 @"page":@"DYSDemo15ViewController"
+                                 },
+                             @{
+                                 @"title":@"视觉效果-圆角/阴影",
+                                 @"page":@"DYSDemo16ViewController"
+                                 },
+                             @{
+                                 @"title":@"视觉效果-shadowPath属性",
+                                 @"page":@"DYSDemo17ViewController"
+                                 },
+                             @{
+                                 @"title":@"视觉效果-mask?",
+                                 @"page":@"DYSDemo18ViewController"
+                                 },
+                             @{
+                                 @"title":@"视觉效果-拉伸过滤",
+                                 @"page":@"DYSDemo19ViewController"
+                                 },
                              ];
     self.tableView.rowHeight = 50;
 }
