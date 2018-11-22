@@ -98,6 +98,10 @@
                                  @"title":@"视觉效果-拉伸过滤",
                                  @"page":@"DYSDemo19ViewController"
                                  },
+                             @{
+                                 @"title":@"视觉效果-组透明",
+                                 @"page":@"DYSDemo20ViewController"
+                                 },
                              ];
     self.tableView.rowHeight = 50;
 }

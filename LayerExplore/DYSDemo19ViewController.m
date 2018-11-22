@@ -30,6 +30,8 @@
         view.layer.contents = (__bridge id)digits.CGImage;
         view.layer.contentsRect = CGRectMake(0, 0, 0.1, 1.0);
         view.layer.contentsGravity = kCAGravityResizeAspect;
+        
+        view.layer.magnificationFilter = kCAFilterNearest;
     }
     
     //start timer
@@ -47,13 +49,6 @@
 
 - (void)tick
 {
-    //convert time to hours, minutes and seconds
-//    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier: NSGregorianCalendar];
-//    NSUInteger units = NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;￼
-//
-//    NSDateComponents *components = [calendar components:units fromDate:[NSDate date]];
-    
-    
     //convert time to hours, minutes and seconds
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSUInteger units = NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;

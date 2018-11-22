@@ -52,6 +52,8 @@
 		F7EC774121A580DC000F1B9C /* DYSDemo19ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC773F21A580DC000F1B9C /* DYSDemo19ViewController.m */; };
 		F7EC774221A580DC000F1B9C /* DYSDemo19ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EC774021A580DC000F1B9C /* DYSDemo19ViewController.xib */; };
 		F7EC774421A58213000F1B9C /* Digits.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC774321A58212000F1B9C /* Digits.png */; };
+		F7EC774821A58545000F1B9C /* DYSDemo20ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC774621A58545000F1B9C /* DYSDemo20ViewController.m */; };
+		F7EC774921A58545000F1B9C /* DYSDemo20ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EC774721A58545000F1B9C /* DYSDemo20ViewController.xib */; };
 		F7F36A6F21A556A0003EC807 /* DYSDemo13ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F36A6D21A556A0003EC807 /* DYSDemo13ViewController.m */; };
 		F7F36A7021A556A0003EC807 /* DYSDemo13ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F36A6E21A556A0003EC807 /* DYSDemo13ViewController.xib */; };
 /* End PBXBuildFile section */
@@ -125,6 +127,9 @@
 		F7EC773F21A580DC000F1B9C /* DYSDemo19ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo19ViewController.m; sourceTree = "<group>"; };
 		F7EC774021A580DC000F1B9C /* DYSDemo19ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo19ViewController.xib; sourceTree = "<group>"; };
 		F7EC774321A58212000F1B9C /* Digits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Digits.png; sourceTree = "<group>"; };
+		F7EC774521A58545000F1B9C /* DYSDemo20ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo20ViewController.h; sourceTree = "<group>"; };
+		F7EC774621A58545000F1B9C /* DYSDemo20ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo20ViewController.m; sourceTree = "<group>"; };
+		F7EC774721A58545000F1B9C /* DYSDemo20ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo20ViewController.xib; sourceTree = "<group>"; };
 		F7F36A6C21A556A0003EC807 /* DYSDemo13ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo13ViewController.h; sourceTree = "<group>"; };
 		F7F36A6D21A556A0003EC807 /* DYSDemo13ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo13ViewController.m; sourceTree = "<group>"; };
 		F7F36A6E21A556A0003EC807 /* DYSDemo13ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo13ViewController.xib; sourceTree = "<group>"; };
@@ -225,6 +230,9 @@
 				F7EC773E21A580DC000F1B9C /* DYSDemo19ViewController.h */,
 				F7EC773F21A580DC000F1B9C /* DYSDemo19ViewController.m */,
 				F7EC774021A580DC000F1B9C /* DYSDemo19ViewController.xib */,
+				F7EC774521A58545000F1B9C /* DYSDemo20ViewController.h */,
+				F7EC774621A58545000F1B9C /* DYSDemo20ViewController.m */,
+				F7EC774721A58545000F1B9C /* DYSDemo20ViewController.xib */,
 				F73FEFF5219BFDAC007F9A9D /* Main.storyboard */,
 				F73FEFF8219BFDAF007F9A9D /* Assets.xcassets */,
 				F73FEFFA219BFDAF007F9A9D /* LaunchScreen.storyboard */,
@@ -308,6 +316,7 @@
 				F7D9327A219E61F3009B4BA3 /* banner1.png in Resources */,
 				F7EC772E21A56792000F1B9C /* DYSDemo15ViewController.xib in Resources */,
 				F7EC774221A580DC000F1B9C /* DYSDemo19ViewController.xib in Resources */,
+				F7EC774921A58545000F1B9C /* DYSDemo20ViewController.xib in Resources */,
 				F790E5FB219EA98100D16BFA /* DYSDemo10ViewController.xib in Resources */,
 				F74B78CC219E8A8D00CDF998 /* DYSDemo08ViewController.xib in Resources */,
 				F7EC773321A57651000F1B9C /* DYSDemo16ViewController.xib in Resources */,
@@ -328,6 +337,7 @@
 			files = (
 				F7EC773721A57B9F000F1B9C /* DYSDemo17ViewController.m in Sources */,
 				F73FEFF4219BFDAC007F9A9D /* ViewController.m in Sources */,
+				F7EC774821A58545000F1B9C /* DYSDemo20ViewController.m in Sources */,
 				F73FF016219C09F3007F9A9D /* DYSDemo03Layer.m in Sources */,
 				F74B78C6219E761500CDF998 /* DYSDemo06ViewController.m in Sources */,
 				F7EC772D21A56792000F1B9C /* DYSDemo15ViewController.m in Sources */,
