@@ -35,12 +35,12 @@
                                  @"page":@"DYSDemo03ViewController"
                                  },
                              @{
-                                 @"title":@"layer-contents-寄宿图",
-                                 @"page":@"DYSDemo05ViewController"
-                                 },
-                             @{
                                  @"title":@"CAShapeLayer和UIBezierPath",
                                  @"page":@"DYSDemo04ViewController"
+                                 },
+                             @{
+                                 @"title":@"layer-contents-寄宿图",
+                                 @"page":@"DYSDemo05ViewController"
                                  },
                              @{
                                  @"title":@"Frame和Bounds",
@@ -102,6 +102,18 @@
                                  @"title":@"视觉效果-组透明",
                                  @"page":@"DYSDemo20ViewController"
                                  },
+                             @{
+                                 @"title":@"专用图层-CAShapeLayer",
+                                 @"page":@"DYSDemo21ViewController"
+                                 },
+                             @{
+                                 @"title":@"专用图层-CATextLayer",
+                                 @"page":@"DYSDemo22ViewController"
+                                 },
+                             @{
+                                 @"title":@"专用图层-CATransformLayer",
+                                 @"page":@"DYSDemo23ViewController"
+                                 },
                              ];
     self.tableView.rowHeight = 50;
 }
@@ -118,7 +130,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CellID"];
     }
     
-    NSDictionary *dict = [self.dataSourceArray objectAtIndex:indexPath.row];
+    NSDictionary *dict = [self.dataSourceArray objectAtIndex:(self.dataSourceArray.count - indexPath.row - 1)];
     cell.textLabel.text = [dict objectForKey:@"title"];
     return cell;
 }
@@ -126,14 +138,14 @@
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSDictionary *dict = [self.dataSourceArray objectAtIndex:indexPath.row];
+    NSDictionary *dict = [self.dataSourceArray objectAtIndex:(self.dataSourceArray.count - indexPath.row - 1)];
     NSString *classString = [dict objectForKey:@"page"];
     UIViewController *vc = [NSClassFromString(classString) new];
-    NSLog(@"2018-001");
+//    NSLog(@"2018-001");
 //    vc.view.backgroundColor = [UIColor whiteColor];
-    NSLog(@"2018-002");
+//    NSLog(@"2018-002");
     [self.navigationController pushViewController:vc animated:YES];
-    NSLog(@"2018-003");
+//    NSLog(@"2018-003");
 }
 
 /**
