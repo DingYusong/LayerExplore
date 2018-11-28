@@ -1,14 +1,14 @@
 //
-//  DYSLayerLabel.m
+//  DYSDemo22TextLayerLabel.m
 //  LayerExplore
 //
 //  Created by 丁玉松 on 2018/11/27.
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
 
-#import "DYSLayerLabel.h"
+#import "DYSDemo22TextLayerLabel.h"
 
-@implementation DYSLayerLabel
+@implementation DYSDemo22TextLayerLabel
 
 /*
 // Only override drawRect: if you perform custom drawing.

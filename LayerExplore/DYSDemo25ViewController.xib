@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DYSDemo25ViewController">
+            <connections>
+                <outlet property="containerView" destination="DBf-UG-q5B" id="Qky-FD-QL3"/>
+                <outlet property="reflectionView" destination="rnk-JE-Ofa" id="6je-ed-6a3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBf-UG-q5B">
+                    <rect key="frame" x="61" y="57" width="253" height="223"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="253" id="Vop-pJ-vgS"/>
+                        <constraint firstAttribute="height" constant="223" id="nyc-TZ-mkO"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnk-JE-Ofa" customClass="DYSDemo25ReflectionView">
+                    <rect key="frame" x="126" y="288" width="123" height="130"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="owf-gI-sPd"/>
+                        <constraint firstAttribute="width" constant="123" id="ptD-x2-Dex"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="DBf-UG-q5B" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="7RC-ll-oLG"/>
+                <constraint firstItem="DBf-UG-q5B" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="37" id="Wg5-EJ-AOA"/>
+                <constraint firstItem="rnk-JE-Ofa" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="x3g-08-C4F"/>
+                <constraint firstItem="rnk-JE-Ofa" firstAttribute="top" secondItem="DBf-UG-q5B" secondAttribute="bottom" constant="8" id="ylg-AC-cCm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="138.40000000000001" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>

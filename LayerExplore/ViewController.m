@@ -114,6 +114,14 @@
                                  @"title":@"专用图层-CATransformLayer",
                                  @"page":@"DYSDemo23ViewController"
                                  },
+                             @{
+                                 @"title":@"专用图层-CAGradientLayer",
+                                 @"page":@"DYSDemo24ViewController"
+                                 },
+                             @{
+                                 @"title":@"专用图层-CAReplicatorLayer",
+                                 @"page":@"DYSDemo25ViewController"
+                                 },
                              ];
     self.tableView.rowHeight = 50;
 }

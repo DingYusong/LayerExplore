@@ -74,7 +74,7 @@
     return cube;
 }
 
-- (void)viewDidLoad {    
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     //set up the perspective transform

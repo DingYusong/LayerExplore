@@ -1,8 +1,8 @@
 //
-//  DYSLayerLabel.h
+//  DYSDemo25ViewController.h
 //  LayerExplore
 //
-//  Created by 丁玉松 on 2018/11/27.
+//  Created by 丁玉松 on 2018/11/28.
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSLayerLabel : UILabel
+@interface DYSDemo25ViewController : UIViewController
 
 @end
 

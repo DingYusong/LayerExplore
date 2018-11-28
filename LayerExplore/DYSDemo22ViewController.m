@@ -8,12 +8,12 @@
 
 #import "DYSDemo22ViewController.h"
 #import <CoreText/CoreText.h>
-#import "DYSLayerLabel.h"
+#import "DYSDemo22TextLayerLabel.h"
 
 @interface DYSDemo22ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *labelView;
 @property (weak, nonatomic) IBOutlet UIView *labelView2;
-@property (weak, nonatomic) IBOutlet DYSLayerLabel *layerLabel;
+@property (weak, nonatomic) IBOutlet DYSDemo22TextLayerLabel *layerLabel;
 
 @end
 
