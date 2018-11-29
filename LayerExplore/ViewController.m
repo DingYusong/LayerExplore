@@ -122,6 +122,10 @@
                                  @"title":@"专用图层-CAReplicatorLayer",
                                  @"page":@"DYSDemo25ViewController"
                                  },
+                             @{
+                                 @"title":@"专用图层-CAScrollLayer",
+                                 @"page":@"DYSDemo26ViewController"
+                                 },
                              ];
     self.tableView.rowHeight = 50;
 }
