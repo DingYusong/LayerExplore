@@ -310,7 +310,6 @@
 		F73996C621B134CF0067950E /* DYSDemo29ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73996C421B134CF0067950E /* DYSDemo29ViewController.xib */; };
 		F73996CA21B136140067950E /* DYSDemo30ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73996C821B136140067950E /* DYSDemo30ViewController.m */; };
 		F73996CB21B136140067950E /* DYSDemo30ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73996C921B136140067950E /* DYSDemo30ViewController.xib */; };
-		F73996CD21B157B40067950E /* mybaby.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = F73996CC21B147BE0067950E /* mybaby.MP4 */; };
 		F73996CF21B158F40067950E /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F73996CE21B158E50067950E /* Ship.mp4 */; };
 		F73FEFF1219BFDAC007F9A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */; };
 		F73FEFF4219BFDAC007F9A9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FEFF3219BFDAC007F9A9D /* ViewController.m */; };
@@ -698,7 +697,6 @@
 		F73996C721B136140067950E /* DYSDemo30ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo30ViewController.h; sourceTree = "<group>"; };
 		F73996C821B136140067950E /* DYSDemo30ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo30ViewController.m; sourceTree = "<group>"; };
 		F73996C921B136140067950E /* DYSDemo30ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo30ViewController.xib; sourceTree = "<group>"; };
-		F73996CC21B147BE0067950E /* mybaby.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mybaby.MP4; sourceTree = "<group>"; };
 		F73996CE21B158E50067950E /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
 		F73FEFEC219BFDAC007F9A9D /* LayerExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73FEFEF219BFDAC007F9A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1258,7 +1256,6 @@
 				F7CD6B2621AFC228004F5653 /* baby-1.PNG */,
 				F7CD6B2821AFC228004F5653 /* baby-2.PNG */,
 				F73996B621B119650067950E /* big1_6912 × 4320.jpg */,
-				F73996CC21B147BE0067950E /* mybaby.MP4 */,
 				F73996CE21B158E50067950E /* Ship.mp4 */,
 				F7CD6B2721AFC228004F5653 /* baby.png */,
 				F7CD6B2D21AFC23A004F5653 /* banner1.png */,
@@ -1336,7 +1333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73996CF21B158F40067950E /* Ship.mp4 in Resources */,
-				F73996CD21B157B40067950E /* mybaby.MP4 in Resources */,
 				F73995E621B1194D0067950E /* big1_6912 × 4320_14_13.jpg in Resources */,
 				F73995AC21B1194D0067950E /* big1_6912 × 4320_15_03.jpg in Resources */,
 				F73995B821B1194D0067950E /* big1_6912 × 4320_08_02.jpg in Resources */,
