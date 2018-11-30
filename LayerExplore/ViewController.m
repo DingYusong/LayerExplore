@@ -126,7 +126,23 @@
                                  @"title":@"专用图层-CAScrollLayer",
                                  @"page":@"DYSDemo26ViewController"
                                  },
-                             ];
+                             @{
+                                 @"title":@"专用图层-CATiledLayer",
+                                 @"page":@"DYSDemo27ViewController"
+                                 },
+                             @{
+                                 @"title":@"专用图层-CAEmitterLayer",
+                                 @"page":@"DYSDemo28ViewController"
+                                 },
+                             @{
+                                 @"title":@"专用图层-CAEAGLLayer",
+                                 @"page":@"DYSDemo29ViewController"
+                                 },
+                             @{
+                                 @"title":@"专用图层-AVPlayerLayer",
+                                 @"page":@"DYSDemo30ViewController"
+                                 },
+                            ];
     self.tableView.rowHeight = 50;
 }
 
