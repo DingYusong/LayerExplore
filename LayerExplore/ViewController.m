@@ -142,6 +142,18 @@
                                  @"title":@"专用图层-AVPlayerLayer",
                                  @"page":@"DYSDemo30ViewController"
                                  },
+                             @{
+                                 @"title":@"隐式动画-事物/完成块",
+                                 @"page":@"DYSDemo31ViewController"
+                                 },
+                             @{
+                                 @"title":@"隐式动画-图层行为",
+                                 @"page":@"DYSDemo32ViewController"
+                                 },
+                             @{
+                                 @"title":@"隐式动画-图层行为",
+                                 @"page":@"DYSDemo33ViewController"
+                                 },
                             ];
     self.tableView.rowHeight = 50;
 }

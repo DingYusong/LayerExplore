@@ -55,6 +55,7 @@
 //    contentsAnimation.duration = 0;
 //    [tileLayer addAnimation:contentsAnimation forKey:nil];
     
+    
 }
 
 
@@ -62,7 +63,7 @@
 - (void)drawLayer:(CATiledLayer *)layer inContext:(CGContextRef)ctx {
     
     [CATransaction begin];
-    [CATransaction disableActions];
+    [CATransaction setDisableActions:YES];
     
 
     CGRect bounds = CGContextGetClipBoundingBox(ctx);

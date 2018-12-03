@@ -364,6 +364,8 @@
 		F7CD6B3D21AFC23B004F5653 /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B3421AFC23B004F5653 /* beauty.png */; };
 		F7CD6B4021AFC254004F5653 /* IMG_0074.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B3E21AFC254004F5653 /* IMG_0074.JPG */; };
 		F7CD6B4121AFC254004F5653 /* IMG_0073.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B3F21AFC254004F5653 /* IMG_0073.JPG */; };
+		F7D775CA21B54F9200DB7215 /* DYSDemo33ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D775C821B54F9200DB7215 /* DYSDemo33ViewController.m */; };
+		F7D775CB21B54F9200DB7215 /* DYSDemo33ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D775C921B54F9200DB7215 /* DYSDemo33ViewController.xib */; };
 		F7D8994E21B114C20023C23E /* DYSDemo27ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8994C21B114C20023C23E /* DYSDemo27ViewController.m */; };
 		F7D8994F21B114C20023C23E /* DYSDemo27ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D8994D21B114C20023C23E /* DYSDemo27ViewController.xib */; };
 		F7D93277219E617E009B4BA3 /* DYSDemo05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D93275219E617E009B4BA3 /* DYSDemo05ViewController.m */; };
@@ -382,6 +384,10 @@
 		F7EC774221A580DC000F1B9C /* DYSDemo19ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EC774021A580DC000F1B9C /* DYSDemo19ViewController.xib */; };
 		F7EC774821A58545000F1B9C /* DYSDemo20ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC774621A58545000F1B9C /* DYSDemo20ViewController.m */; };
 		F7EC774921A58545000F1B9C /* DYSDemo20ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EC774721A58545000F1B9C /* DYSDemo20ViewController.xib */; };
+		F7EC9B0821B5101D00A46EC9 /* DYSDemo31ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC9B0621B5101D00A46EC9 /* DYSDemo31ViewController.m */; };
+		F7EC9B0921B5101D00A46EC9 /* DYSDemo31ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EC9B0721B5101D00A46EC9 /* DYSDemo31ViewController.xib */; };
+		F7EC9B0D21B52BDE00A46EC9 /* DYSDemo32ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC9B0B21B52BDE00A46EC9 /* DYSDemo32ViewController.m */; };
+		F7EC9B0E21B52BDE00A46EC9 /* DYSDemo32ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EC9B0C21B52BDE00A46EC9 /* DYSDemo32ViewController.xib */; };
 		F7F36A6F21A556A0003EC807 /* DYSDemo13ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F36A6D21A556A0003EC807 /* DYSDemo13ViewController.m */; };
 		F7F36A7021A556A0003EC807 /* DYSDemo13ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F36A6E21A556A0003EC807 /* DYSDemo13ViewController.xib */; };
 /* End PBXBuildFile section */
@@ -775,6 +781,9 @@
 		F7CD6B3421AFC23B004F5653 /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
 		F7CD6B3E21AFC254004F5653 /* IMG_0074.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0074.JPG; sourceTree = "<group>"; };
 		F7CD6B3F21AFC254004F5653 /* IMG_0073.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0073.JPG; sourceTree = "<group>"; };
+		F7D775C721B54F9200DB7215 /* DYSDemo33ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo33ViewController.h; sourceTree = "<group>"; };
+		F7D775C821B54F9200DB7215 /* DYSDemo33ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo33ViewController.m; sourceTree = "<group>"; };
+		F7D775C921B54F9200DB7215 /* DYSDemo33ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo33ViewController.xib; sourceTree = "<group>"; };
 		F7D8994B21B114C20023C23E /* DYSDemo27ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo27ViewController.h; sourceTree = "<group>"; };
 		F7D8994C21B114C20023C23E /* DYSDemo27ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo27ViewController.m; sourceTree = "<group>"; };
 		F7D8994D21B114C20023C23E /* DYSDemo27ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo27ViewController.xib; sourceTree = "<group>"; };
@@ -802,6 +811,12 @@
 		F7EC774521A58545000F1B9C /* DYSDemo20ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo20ViewController.h; sourceTree = "<group>"; };
 		F7EC774621A58545000F1B9C /* DYSDemo20ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo20ViewController.m; sourceTree = "<group>"; };
 		F7EC774721A58545000F1B9C /* DYSDemo20ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo20ViewController.xib; sourceTree = "<group>"; };
+		F7EC9B0521B5101D00A46EC9 /* DYSDemo31ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo31ViewController.h; sourceTree = "<group>"; };
+		F7EC9B0621B5101D00A46EC9 /* DYSDemo31ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo31ViewController.m; sourceTree = "<group>"; };
+		F7EC9B0721B5101D00A46EC9 /* DYSDemo31ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo31ViewController.xib; sourceTree = "<group>"; };
+		F7EC9B0A21B52BDE00A46EC9 /* DYSDemo32ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo32ViewController.h; sourceTree = "<group>"; };
+		F7EC9B0B21B52BDE00A46EC9 /* DYSDemo32ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo32ViewController.m; sourceTree = "<group>"; };
+		F7EC9B0C21B52BDE00A46EC9 /* DYSDemo32ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo32ViewController.xib; sourceTree = "<group>"; };
 		F7F36A6C21A556A0003EC807 /* DYSDemo13ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo13ViewController.h; sourceTree = "<group>"; };
 		F7F36A6D21A556A0003EC807 /* DYSDemo13ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo13ViewController.m; sourceTree = "<group>"; };
 		F7F36A6E21A556A0003EC807 /* DYSDemo13ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo13ViewController.xib; sourceTree = "<group>"; };
@@ -1138,6 +1153,15 @@
 				F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */,
 				F73FEFF2219BFDAC007F9A9D /* ViewController.h */,
 				F73FEFF3219BFDAC007F9A9D /* ViewController.m */,
+				F7D775C721B54F9200DB7215 /* DYSDemo33ViewController.h */,
+				F7D775C821B54F9200DB7215 /* DYSDemo33ViewController.m */,
+				F7D775C921B54F9200DB7215 /* DYSDemo33ViewController.xib */,
+				F7EC9B0A21B52BDE00A46EC9 /* DYSDemo32ViewController.h */,
+				F7EC9B0B21B52BDE00A46EC9 /* DYSDemo32ViewController.m */,
+				F7EC9B0C21B52BDE00A46EC9 /* DYSDemo32ViewController.xib */,
+				F7EC9B0521B5101D00A46EC9 /* DYSDemo31ViewController.h */,
+				F7EC9B0621B5101D00A46EC9 /* DYSDemo31ViewController.m */,
+				F7EC9B0721B5101D00A46EC9 /* DYSDemo31ViewController.xib */,
 				F73996C721B136140067950E /* DYSDemo30ViewController.h */,
 				F73996C821B136140067950E /* DYSDemo30ViewController.m */,
 				F73996C921B136140067950E /* DYSDemo30ViewController.xib */,
@@ -1404,6 +1428,7 @@
 				F739967A21B1194D0067950E /* big1_6912 × 4320_07_05.jpg in Resources */,
 				F73995D521B1194D0067950E /* big1_6912 × 4320_05_14.jpg in Resources */,
 				F739964B21B1194D0067950E /* big1_6912 × 4320_15_09.jpg in Resources */,
+				F7EC9B0921B5101D00A46EC9 /* DYSDemo31ViewController.xib in Resources */,
 				F739962F21B1194D0067950E /* big1_6912 × 4320_06_16.jpg in Resources */,
 				F739962321B1194D0067950E /* big1_6912 × 4320_12_06.jpg in Resources */,
 				F7CD6B3D21AFC23B004F5653 /* beauty.png in Resources */,
@@ -1466,6 +1491,7 @@
 				F73995EC21B1194D0067950E /* big1_6912 × 4320_12_11.jpg in Resources */,
 				F739969C21B1194D0067950E /* big1_6912 × 4320_05_02.jpg in Resources */,
 				F73995E421B1194D0067950E /* big1_6912 × 4320_03_11.jpg in Resources */,
+				F7EC9B0E21B52BDE00A46EC9 /* DYSDemo32ViewController.xib in Resources */,
 				F739965A21B1194D0067950E /* big1_6912 × 4320_00_02.jpg in Resources */,
 				F73996A221B1194D0067950E /* big1_6912 × 4320_14_02.jpg in Resources */,
 				F739962A21B1194D0067950E /* big1_6912 × 4320_12_02.jpg in Resources */,
@@ -1580,6 +1606,7 @@
 				F739961821B1194D0067950E /* big1_6912 × 4320_16_12.jpg in Resources */,
 				F790E5FB219EA98100D16BFA /* DYSDemo10ViewController.xib in Resources */,
 				F739961521B1194D0067950E /* big1_6912 × 4320_01_05.jpg in Resources */,
+				F7D775CB21B54F9200DB7215 /* DYSDemo33ViewController.xib in Resources */,
 				F73995F221B1194D0067950E /* big1_6912 × 4320_05_10.jpg in Resources */,
 				F739968221B1194D0067950E /* big1_6912 × 4320_06_15.jpg in Resources */,
 				F739965F21B1194D0067950E /* big1_6912 × 4320_15_01.jpg in Resources */,
@@ -1695,6 +1722,7 @@
 				F7A2267721AE7BC400EA597E /* DYSDemo24ViewController.m in Sources */,
 				F7A2267221AD6C0100EA597E /* DYSDemo23ViewController.m in Sources */,
 				F790E5F5219E962C00D16BFA /* DYSDemo09ViewController.m in Sources */,
+				F7EC9B0821B5101D00A46EC9 /* DYSDemo31ViewController.m in Sources */,
 				F7EC772321A5637E000F1B9C /* DYSDemo14ViewController.m in Sources */,
 				F7D93277219E617E009B4BA3 /* DYSDemo05ViewController.m in Sources */,
 				F7A2268221AEB21200EA597E /* DYSDemo25ViewController.m in Sources */,
@@ -1705,6 +1733,7 @@
 				F73FEFFF219BFDAF007F9A9D /* main.m in Sources */,
 				F7A2267B21AE83B500EA597E /* DYSDemo24GradientLayerView.m in Sources */,
 				F7A2266A21AD248A00EA597E /* DYSDemo22ViewController.m in Sources */,
+				F7D775CA21B54F9200DB7215 /* DYSDemo33ViewController.m in Sources */,
 				F73996BF21B129DD0067950E /* DYSDemo28EmitterLayerView.m in Sources */,
 				F73FEFF1219BFDAC007F9A9D /* AppDelegate.m in Sources */,
 				F724DCAB219ED37300F4A84A /* DYSDemo12ViewController.m in Sources */,
@@ -1715,6 +1744,7 @@
 				F7A2266E21AD65FC00EA597E /* DYSDemo22TextLayerLabel.m in Sources */,
 				F790E5FA219EA98100D16BFA /* DYSDemo10ViewController.m in Sources */,
 				F73996C521B134CF0067950E /* DYSDemo29ViewController.m in Sources */,
+				F7EC9B0D21B52BDE00A46EC9 /* DYSDemo32ViewController.m in Sources */,
 				F74B78CB219E8A8D00CDF998 /* DYSDemo08ViewController.m in Sources */,
 				F7A2266521ACE08200EA597E /* DYSDemo21ViewController.m in Sources */,
 				F73FF012219C09DD007F9A9D /* DYSDemo03ViewController.m in Sources */,
@@ -1795,7 +1825,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1848,7 +1878,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
