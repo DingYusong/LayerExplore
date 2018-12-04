@@ -151,8 +151,12 @@
                                  @"page":@"DYSDemo32ViewController"
                                  },
                              @{
-                                 @"title":@"隐式动画-图层行为",
+                                 @"title":@"隐式动画-呈现和模型",
                                  @"page":@"DYSDemo33ViewController"
+                                 },
+                             @{
+                                 @"title":@"显式动画-属性动画",
+                                 @"page":@"DYSDemo34ViewController"
                                  },
                             ];
     self.tableView.rowHeight = 50;

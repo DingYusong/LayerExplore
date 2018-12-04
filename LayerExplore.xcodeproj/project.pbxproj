@@ -366,6 +366,8 @@
 		F7CD6B4121AFC254004F5653 /* IMG_0073.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B3F21AFC254004F5653 /* IMG_0073.JPG */; };
 		F7D775CA21B54F9200DB7215 /* DYSDemo33ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D775C821B54F9200DB7215 /* DYSDemo33ViewController.m */; };
 		F7D775CB21B54F9200DB7215 /* DYSDemo33ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D775C921B54F9200DB7215 /* DYSDemo33ViewController.xib */; };
+		F7D775CF21B62E8A00DB7215 /* DYSDemo34ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D775CD21B62E8A00DB7215 /* DYSDemo34ViewController.m */; };
+		F7D775D021B62E8A00DB7215 /* DYSDemo34ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D775CE21B62E8A00DB7215 /* DYSDemo34ViewController.xib */; };
 		F7D8994E21B114C20023C23E /* DYSDemo27ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8994C21B114C20023C23E /* DYSDemo27ViewController.m */; };
 		F7D8994F21B114C20023C23E /* DYSDemo27ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D8994D21B114C20023C23E /* DYSDemo27ViewController.xib */; };
 		F7D93277219E617E009B4BA3 /* DYSDemo05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D93275219E617E009B4BA3 /* DYSDemo05ViewController.m */; };
@@ -784,6 +786,9 @@
 		F7D775C721B54F9200DB7215 /* DYSDemo33ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo33ViewController.h; sourceTree = "<group>"; };
 		F7D775C821B54F9200DB7215 /* DYSDemo33ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo33ViewController.m; sourceTree = "<group>"; };
 		F7D775C921B54F9200DB7215 /* DYSDemo33ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo33ViewController.xib; sourceTree = "<group>"; };
+		F7D775CC21B62E8A00DB7215 /* DYSDemo34ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo34ViewController.h; sourceTree = "<group>"; };
+		F7D775CD21B62E8A00DB7215 /* DYSDemo34ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo34ViewController.m; sourceTree = "<group>"; };
+		F7D775CE21B62E8A00DB7215 /* DYSDemo34ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo34ViewController.xib; sourceTree = "<group>"; };
 		F7D8994B21B114C20023C23E /* DYSDemo27ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo27ViewController.h; sourceTree = "<group>"; };
 		F7D8994C21B114C20023C23E /* DYSDemo27ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo27ViewController.m; sourceTree = "<group>"; };
 		F7D8994D21B114C20023C23E /* DYSDemo27ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo27ViewController.xib; sourceTree = "<group>"; };
@@ -1153,6 +1158,9 @@
 				F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */,
 				F73FEFF2219BFDAC007F9A9D /* ViewController.h */,
 				F73FEFF3219BFDAC007F9A9D /* ViewController.m */,
+				F7D775CC21B62E8A00DB7215 /* DYSDemo34ViewController.h */,
+				F7D775CD21B62E8A00DB7215 /* DYSDemo34ViewController.m */,
+				F7D775CE21B62E8A00DB7215 /* DYSDemo34ViewController.xib */,
 				F7D775C721B54F9200DB7215 /* DYSDemo33ViewController.h */,
 				F7D775C821B54F9200DB7215 /* DYSDemo33ViewController.m */,
 				F7D775C921B54F9200DB7215 /* DYSDemo33ViewController.xib */,
@@ -1640,6 +1648,7 @@
 				F739960E21B1194D0067950E /* big1_6912 × 4320_16_01.jpg in Resources */,
 				F739964021B1194D0067950E /* big1_6912 × 4320_04_04.jpg in Resources */,
 				F739967421B1194D0067950E /* big1_6912 × 4320_13_09.jpg in Resources */,
+				F7D775D021B62E8A00DB7215 /* DYSDemo34ViewController.xib in Resources */,
 				F73995E221B1194D0067950E /* big1_6912 × 4320_13_07.jpg in Resources */,
 				F73995D721B1194D0067950E /* big1_6912 × 4320_06_03.jpg in Resources */,
 				F73995CF21B1194D0067950E /* big1_6912 × 4320_13_14.jpg in Resources */,
@@ -1729,6 +1738,7 @@
 				F73FF00D219C065B007F9A9D /* DYSDemo02ViewController.m in Sources */,
 				F7EC773221A57651000F1B9C /* DYSDemo16ViewController.m in Sources */,
 				F7983F5021AFAD9000CB1D24 /* DYSDemo26ScrollLayerView.m in Sources */,
+				F7D775CF21B62E8A00DB7215 /* DYSDemo34ViewController.m in Sources */,
 				F70A7DA921A560550000E8E5 /* DYSDemo13WeakTimerProxy.m in Sources */,
 				F73FEFFF219BFDAF007F9A9D /* main.m in Sources */,
 				F7A2267B21AE83B500EA597E /* DYSDemo24GradientLayerView.m in Sources */,

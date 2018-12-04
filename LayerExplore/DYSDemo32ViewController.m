@@ -33,6 +33,9 @@
     self.colorLayer.actions = @{@"backgroundColor":transition};        
 }
 
+/**
+ 每个UIView对它关联的图层都扮演了一个委托，并且提供了-actionForLayer:forKey的实现方法。当不在一个动画块的实现中，UIView对所有图层行为返回nil，但是在动画block范围之内，它就返回了一个非空值。我们可以用一个demo做个简单的实验（清单7.5）
+ */
 - (void)yyi_logActionLayer {
     NSLog(@"OutSide:%@",[self.layerView.layer actionForKey:@"backgroundColor"]);
     NSLog(@"OutSide:%@",[self.layerView actionForLayer:self.layerView.layer forKey:@"backgroundColor"]);
