@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F70A7DA921A560550000E8E5 /* DYSDemo13WeakTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A7DA821A560550000E8E5 /* DYSDemo13WeakTimerProxy.m */; };
+		F718FC9621B8FD1400F713EB /* DYSDemo35ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718FC9421B8FD1400F713EB /* DYSDemo35ViewController.m */; };
+		F718FC9721B8FD1400F713EB /* DYSDemo35ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718FC9521B8FD1400F713EB /* DYSDemo35ViewController.xib */; };
+		F718FC9B21B9102C00F713EB /* DYSDemo36ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718FC9921B9102C00F713EB /* DYSDemo36ViewController.m */; };
+		F718FC9C21B9102C00F713EB /* DYSDemo36ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718FC9A21B9102C00F713EB /* DYSDemo36ViewController.xib */; };
 		F724DCA6219ECCB400F4A84A /* DYSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F724DCA4219ECCB400F4A84A /* DYSDemo11ViewController.m */; };
 		F724DCA7219ECCB400F4A84A /* DYSDemo11ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F724DCA5219ECCB400F4A84A /* DYSDemo11ViewController.xib */; };
 		F724DCAB219ED37300F4A84A /* DYSDemo12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F724DCA9219ED37300F4A84A /* DYSDemo12ViewController.m */; };
@@ -325,6 +329,8 @@
 		F73FF013219C09DD007F9A9D /* DYSDemo03ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73FF011219C09DD007F9A9D /* DYSDemo03ViewController.xib */; };
 		F73FF016219C09F3007F9A9D /* DYSDemo03Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FF015219C09F3007F9A9D /* DYSDemo03Layer.m */; };
 		F73FF019219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73FF018219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m */; };
+		F749676D21B9172100140051 /* DYSDemo37ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F749676B21B9172100140051 /* DYSDemo37ViewController.m */; };
+		F749676E21B9172100140051 /* DYSDemo37ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F749676C21B9172100140051 /* DYSDemo37ViewController.xib */; };
 		F74B78C6219E761500CDF998 /* DYSDemo06ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B78C4219E761500CDF998 /* DYSDemo06ViewController.m */; };
 		F74B78C7219E761500CDF998 /* DYSDemo06ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74B78C5219E761500CDF998 /* DYSDemo06ViewController.xib */; };
 		F74B78CB219E8A8D00CDF998 /* DYSDemo08ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B78C9219E8A8D00CDF998 /* DYSDemo08ViewController.m */; };
@@ -350,6 +356,10 @@
 		F7A2268221AEB21200EA597E /* DYSDemo25ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A2268021AEB21200EA597E /* DYSDemo25ViewController.m */; };
 		F7A2268321AEB21200EA597E /* DYSDemo25ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A2268121AEB21200EA597E /* DYSDemo25ViewController.xib */; };
 		F7A2268621AEB9A300EA597E /* DYSDemo25ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A2268521AEB9A300EA597E /* DYSDemo25ReflectionView.m */; };
+		F7C99FA721B91DB300B752ED /* DYSDemo38ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C99FA521B91DB300B752ED /* DYSDemo38ViewController.m */; };
+		F7C99FA821B91DB300B752ED /* DYSDemo38ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C99FA621B91DB300B752ED /* DYSDemo38ViewController.xib */; };
+		F7C99FAC21B9464800B752ED /* DYSDemo39ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C99FAA21B9464800B752ED /* DYSDemo39ViewController.m */; };
+		F7C99FAD21B9464800B752ED /* DYSDemo39ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C99FAB21B9464800B752ED /* DYSDemo39ViewController.xib */; };
 		F7CD6B2921AFC228004F5653 /* baby-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B2621AFC228004F5653 /* baby-1.PNG */; };
 		F7CD6B2A21AFC228004F5653 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B2721AFC228004F5653 /* baby.png */; };
 		F7CD6B2B21AFC228004F5653 /* baby-2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6B2821AFC228004F5653 /* baby-2.PNG */; };
@@ -397,6 +407,12 @@
 /* Begin PBXFileReference section */
 		F70A7DA721A560550000E8E5 /* DYSDemo13WeakTimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo13WeakTimerProxy.h; sourceTree = "<group>"; };
 		F70A7DA821A560550000E8E5 /* DYSDemo13WeakTimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo13WeakTimerProxy.m; sourceTree = "<group>"; };
+		F718FC9321B8FD1400F713EB /* DYSDemo35ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo35ViewController.h; sourceTree = "<group>"; };
+		F718FC9421B8FD1400F713EB /* DYSDemo35ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo35ViewController.m; sourceTree = "<group>"; };
+		F718FC9521B8FD1400F713EB /* DYSDemo35ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo35ViewController.xib; sourceTree = "<group>"; };
+		F718FC9821B9102C00F713EB /* DYSDemo36ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo36ViewController.h; sourceTree = "<group>"; };
+		F718FC9921B9102C00F713EB /* DYSDemo36ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo36ViewController.m; sourceTree = "<group>"; };
+		F718FC9A21B9102C00F713EB /* DYSDemo36ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo36ViewController.xib; sourceTree = "<group>"; };
 		F724DCA3219ECCB400F4A84A /* DYSDemo11ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo11ViewController.h; sourceTree = "<group>"; };
 		F724DCA4219ECCB400F4A84A /* DYSDemo11ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo11ViewController.m; sourceTree = "<group>"; };
 		F724DCA5219ECCB400F4A84A /* DYSDemo11ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo11ViewController.xib; sourceTree = "<group>"; };
@@ -729,6 +745,9 @@
 		F73FF015219C09F3007F9A9D /* DYSDemo03Layer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo03Layer.m; sourceTree = "<group>"; };
 		F73FF017219C0CE1007F9A9D /* DYSDemo02LayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo02LayerDelegate.h; sourceTree = "<group>"; };
 		F73FF018219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02LayerDelegate.m; sourceTree = "<group>"; };
+		F749676A21B9172100140051 /* DYSDemo37ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo37ViewController.h; sourceTree = "<group>"; };
+		F749676B21B9172100140051 /* DYSDemo37ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo37ViewController.m; sourceTree = "<group>"; };
+		F749676C21B9172100140051 /* DYSDemo37ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo37ViewController.xib; sourceTree = "<group>"; };
 		F74B78C3219E761500CDF998 /* DYSDemo06ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo06ViewController.h; sourceTree = "<group>"; };
 		F74B78C4219E761500CDF998 /* DYSDemo06ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo06ViewController.m; sourceTree = "<group>"; };
 		F74B78C5219E761500CDF998 /* DYSDemo06ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo06ViewController.xib; sourceTree = "<group>"; };
@@ -769,6 +788,12 @@
 		F7A2268121AEB21200EA597E /* DYSDemo25ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo25ViewController.xib; sourceTree = "<group>"; };
 		F7A2268421AEB9A300EA597E /* DYSDemo25ReflectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo25ReflectionView.h; sourceTree = "<group>"; };
 		F7A2268521AEB9A300EA597E /* DYSDemo25ReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo25ReflectionView.m; sourceTree = "<group>"; };
+		F7C99FA421B91DB300B752ED /* DYSDemo38ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo38ViewController.h; sourceTree = "<group>"; };
+		F7C99FA521B91DB300B752ED /* DYSDemo38ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo38ViewController.m; sourceTree = "<group>"; };
+		F7C99FA621B91DB300B752ED /* DYSDemo38ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo38ViewController.xib; sourceTree = "<group>"; };
+		F7C99FA921B9464800B752ED /* DYSDemo39ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo39ViewController.h; sourceTree = "<group>"; };
+		F7C99FAA21B9464800B752ED /* DYSDemo39ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo39ViewController.m; sourceTree = "<group>"; };
+		F7C99FAB21B9464800B752ED /* DYSDemo39ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo39ViewController.xib; sourceTree = "<group>"; };
 		F7CD6B2621AFC228004F5653 /* baby-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby-1.PNG"; sourceTree = "<group>"; };
 		F7CD6B2721AFC228004F5653 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
 		F7CD6B2821AFC228004F5653 /* baby-2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby-2.PNG"; sourceTree = "<group>"; };
@@ -1158,6 +1183,21 @@
 				F73FEFF0219BFDAC007F9A9D /* AppDelegate.m */,
 				F73FEFF2219BFDAC007F9A9D /* ViewController.h */,
 				F73FEFF3219BFDAC007F9A9D /* ViewController.m */,
+				F7C99FA921B9464800B752ED /* DYSDemo39ViewController.h */,
+				F7C99FAA21B9464800B752ED /* DYSDemo39ViewController.m */,
+				F7C99FAB21B9464800B752ED /* DYSDemo39ViewController.xib */,
+				F7C99FA421B91DB300B752ED /* DYSDemo38ViewController.h */,
+				F7C99FA521B91DB300B752ED /* DYSDemo38ViewController.m */,
+				F7C99FA621B91DB300B752ED /* DYSDemo38ViewController.xib */,
+				F749676A21B9172100140051 /* DYSDemo37ViewController.h */,
+				F749676B21B9172100140051 /* DYSDemo37ViewController.m */,
+				F749676C21B9172100140051 /* DYSDemo37ViewController.xib */,
+				F718FC9821B9102C00F713EB /* DYSDemo36ViewController.h */,
+				F718FC9921B9102C00F713EB /* DYSDemo36ViewController.m */,
+				F718FC9A21B9102C00F713EB /* DYSDemo36ViewController.xib */,
+				F718FC9321B8FD1400F713EB /* DYSDemo35ViewController.h */,
+				F718FC9421B8FD1400F713EB /* DYSDemo35ViewController.m */,
+				F718FC9521B8FD1400F713EB /* DYSDemo35ViewController.xib */,
 				F7D775CC21B62E8A00DB7215 /* DYSDemo34ViewController.h */,
 				F7D775CD21B62E8A00DB7215 /* DYSDemo34ViewController.m */,
 				F7D775CE21B62E8A00DB7215 /* DYSDemo34ViewController.xib */,
@@ -1412,6 +1452,7 @@
 				F7CD6B3C21AFC23B004F5653 /* dog-2.JPG in Resources */,
 				F7EC772421A5637E000F1B9C /* DYSDemo14ViewController.xib in Resources */,
 				F739965721B1194D0067950E /* big1_6912 × 4320_15_14.jpg in Resources */,
+				F718FC9721B8FD1400F713EB /* DYSDemo35ViewController.xib in Resources */,
 				F739960621B1194D0067950E /* big1_6912 × 4320_15_04.jpg in Resources */,
 				F73995C221B1194D0067950E /* big1_6912 × 4320_06_13.jpg in Resources */,
 				F724DCAC219ED37300F4A84A /* DYSDemo12ViewController.xib in Resources */,
@@ -1493,6 +1534,7 @@
 				F739966121B1194D0067950E /* big1_6912 × 4320_16_02.jpg in Resources */,
 				F73995F321B1194D0067950E /* big1_6912 × 4320_07_02.jpg in Resources */,
 				F73995A021B1194D0067950E /* big1_6912 × 4320_01_13.jpg in Resources */,
+				F749676E21B9172100140051 /* DYSDemo37ViewController.xib in Resources */,
 				F73995D921B1194D0067950E /* big1_6912 × 4320_04_09.jpg in Resources */,
 				F739966E21B1194D0067950E /* big1_6912 × 4320_04_10.jpg in Resources */,
 				F73995C521B1194D0067950E /* big1_6912 × 4320_01_12.jpg in Resources */,
@@ -1571,6 +1613,7 @@
 				F739966221B1194D0067950E /* big1_6912 × 4320_02_12.jpg in Resources */,
 				F73996A021B1194D0067950E /* big1_6912 × 4320_04_01.jpg in Resources */,
 				F739965521B1194D0067950E /* big1_6912 × 4320_09_02.jpg in Resources */,
+				F718FC9C21B9102C00F713EB /* DYSDemo36ViewController.xib in Resources */,
 				F73995F621B1194D0067950E /* big1_6912 × 4320_12_05.jpg in Resources */,
 				F739967721B1194D0067950E /* big1_6912 × 4320_16_07.jpg in Resources */,
 				F73995C021B1194D0067950E /* big1_6912 × 4320_00_11.jpg in Resources */,
@@ -1602,6 +1645,7 @@
 				F739964F21B1194D0067950E /* big1_6912 × 4320_03_06.jpg in Resources */,
 				F739967F21B1194D0067950E /* big1_6912 × 4320_13_12.jpg in Resources */,
 				F7EC774921A58545000F1B9C /* DYSDemo20ViewController.xib in Resources */,
+				F7C99FA821B91DB300B752ED /* DYSDemo38ViewController.xib in Resources */,
 				F73995C821B1194D0067950E /* big1_6912 × 4320_06_01.jpg in Resources */,
 				F739963621B1194D0067950E /* big1_6912 × 4320_09_06.jpg in Resources */,
 				F7A2267821AE7BC400EA597E /* DYSDemo24ViewController.xib in Resources */,
@@ -1660,6 +1704,7 @@
 				F739963721B1194D0067950E /* big1_6912 × 4320_13_13.jpg in Resources */,
 				F739960321B1194D0067950E /* big1_6912 × 4320_12_00.jpg in Resources */,
 				F739963921B1194D0067950E /* big1_6912 × 4320_00_01.jpg in Resources */,
+				F7C99FAD21B9464800B752ED /* DYSDemo39ViewController.xib in Resources */,
 				F73995AE21B1194D0067950E /* big1_6912 × 4320_01_01.jpg in Resources */,
 				F739961E21B1194D0067950E /* big1_6912 × 4320_02_16.jpg in Resources */,
 				F73995A621B1194D0067950E /* big1_6912 × 4320_03_00.jpg in Resources */,
@@ -1721,9 +1766,11 @@
 				F73996CA21B136140067950E /* DYSDemo30ViewController.m in Sources */,
 				F73FF016219C09F3007F9A9D /* DYSDemo03Layer.m in Sources */,
 				F74B78C6219E761500CDF998 /* DYSDemo06ViewController.m in Sources */,
+				F718FC9621B8FD1400F713EB /* DYSDemo35ViewController.m in Sources */,
 				F7EC772D21A56792000F1B9C /* DYSDemo15ViewController.m in Sources */,
 				F7983F4C21AFAD6300CB1D24 /* DYSDemo26ViewController.m in Sources */,
 				F73FF019219C0CE1007F9A9D /* DYSDemo02LayerDelegate.m in Sources */,
+				F7C99FAC21B9464800B752ED /* DYSDemo39ViewController.m in Sources */,
 				F7A2268621AEB9A300EA597E /* DYSDemo25ReflectionView.m in Sources */,
 				F724DCA6219ECCB400F4A84A /* DYSDemo11ViewController.m in Sources */,
 				F7A2267E21AE862400EA597E /* DYSDemo24GradientLayerView2.m in Sources */,
@@ -1743,10 +1790,13 @@
 				F73FEFFF219BFDAF007F9A9D /* main.m in Sources */,
 				F7A2267B21AE83B500EA597E /* DYSDemo24GradientLayerView.m in Sources */,
 				F7A2266A21AD248A00EA597E /* DYSDemo22ViewController.m in Sources */,
+				F718FC9B21B9102C00F713EB /* DYSDemo36ViewController.m in Sources */,
 				F7D775CA21B54F9200DB7215 /* DYSDemo33ViewController.m in Sources */,
 				F73996BF21B129DD0067950E /* DYSDemo28EmitterLayerView.m in Sources */,
 				F73FEFF1219BFDAC007F9A9D /* AppDelegate.m in Sources */,
 				F724DCAB219ED37300F4A84A /* DYSDemo12ViewController.m in Sources */,
+				F749676D21B9172100140051 /* DYSDemo37ViewController.m in Sources */,
+				F7C99FA721B91DB300B752ED /* DYSDemo38ViewController.m in Sources */,
 				F7F36A6F21A556A0003EC807 /* DYSDemo13ViewController.m in Sources */,
 				F7EC774121A580DC000F1B9C /* DYSDemo19ViewController.m in Sources */,
 				F7D8994E21B114C20023C23E /* DYSDemo27ViewController.m in Sources */,

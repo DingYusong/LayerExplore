@@ -155,8 +155,28 @@
                                  @"page":@"DYSDemo33ViewController"
                                  },
                              @{
-                                 @"title":@"显式动画-属性动画",
+                                 @"title":@"显式动画-属性动画/关键帧动画",
                                  @"page":@"DYSDemo34ViewController"
+                                 },
+                             @{
+                                 @"title":@"显式动画-属性动画/钟表",
+                                 @"page":@"DYSDemo35ViewController"
+                                 },
+                             @{
+                                 @"title":@"显式动画-关键帧动画/飞船",
+                                 @"page":@"DYSDemo36ViewController"
+                                 },
+                             @{
+                                 @"title":@"显式动画-虚拟属性(关键路径)",
+                                 @"page":@"DYSDemo37ViewController"
+                                 },
+                             @{
+                                 @"title":@"显式动画-动画组",
+                                 @"page":@"DYSDemo38ViewController"
+                                 },
+                             @{
+                                 @"title":@"显式动画-过渡",
+                                 @"page":@"DYSDemo39ViewController"
                                  },
                             ];
     self.tableView.rowHeight = 50;
