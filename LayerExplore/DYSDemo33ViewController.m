@@ -40,12 +40,12 @@
 
     }
     else {
-        [CATransaction begin];
-        [CATransaction setAnimationDuration:4];
+//        [CATransaction begin];
+//        [CATransaction setAnimationDuration:4];
         
         self.colorLayer.position = point;
         
-        [CATransaction commit];
+//        [CATransaction commit];
         
         
     }
